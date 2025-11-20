@@ -5,6 +5,9 @@
 *.so
 *.dylib
 
+# Built binary
+vulnerable-golang
+
 # Test binary, built with `go test -c`
 *.test
 
