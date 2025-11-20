@@ -27,18 +27,18 @@ All identified security vulnerabilities have been successfully remediated. The r
 ### 3. github.com/owncast/owncast - Cross-Site Request Forgery (MEDIUM)
 
 **Previous Version:** v0.0.13-0.20221013022700-2f0106149f1f  
-**Fixed Version:** v0.1.3  
+**Fixed Version:** v0.2.3  
 **CVE:** CSRF vulnerability  
 **Impact:** Medium - Could allow CSRF attacks  
-**Fix:** Updated to patched version v0.1.3
+**Fix:** Updated to patched version v0.2.3 (exceeds minimum required v0.1.3)
 
 ### 4. golang.org/x/crypto - Authorization Bypass & DoS (HIGH)
 
 **Previous Version:** v0.21.0  
-**Fixed Version:** v0.35.0  
+**Fixed Version:** v0.37.0  
 **CVE:** Multiple vulnerabilities including authorization bypass and DoS  
 **Impact:** High - Could allow authorization bypass and denial of service attacks  
-**Fix:** Updated to patched version v0.35.0
+**Fix:** Updated to patched version v0.37.0 (exceeds minimum required v0.35.0)
 
 ## Verification
 
@@ -50,7 +50,7 @@ All fixes have been verified using:
 ## Additional Security Improvements
 
 - Added compiled binary `vulnerable-golang` to `.gitignore` to prevent accidental commits of build artifacts
-- Updated Go toolchain to v1.23.0 for latest security patches
+- Updated Go toolchain to v1.24.0 for latest security patches
 
 ## CodeQL Analysis Results
 
